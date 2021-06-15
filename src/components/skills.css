@@ -1,0 +1,36 @@
+.skills__container {
+    display: flex;
+    gap: 50px;
+}
+.skills__container > * {
+    width: 50%;
+}
+.skills-left {
+    display: grid;
+    gap: 2.3rem;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    justify-content: space-between;
+}
+
+.skills-icon img {
+    width: 100%;
+}
+.skill-name {
+    margin: auto;
+    text-align: center;
+}
+
+.skills__img > img {
+    width: 100%;
+}
+@media screen and (max-width: 560px){
+    .skills__container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .skills-left > * {
+        flex: 1 0 45px;
+    }
+}

@@ -1,0 +1,31 @@
+.footer {
+    padding: 2rem 0;
+    margin-top: 2rem ;
+}
+.footer__container{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+ 
+}
+.footer__title{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.footer__data li {
+    list-style: none;
+    padding: .25rem;
+    font-weight: bold;
+
+}
+.footer__text{
+    font-weight: bold;
+}
+.footer__link{
+    text-decoration: none;
+}
+
+.footer__social{
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
