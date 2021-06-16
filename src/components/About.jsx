@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 
-function About() {
+function About({theme}) {
 
 
     return (
@@ -20,9 +20,9 @@ function About() {
                     <p className="about__text">A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.</p>
     
                     <div className="about__social">
-                        <a href="#home" className="about__social-icon"><i className="fas fa-envelope-open-text"></i></a>
-                        <a href="https://github.com/ashrafcoding" className="about__social-icon" target="_blank"><i className="fab fa-github"></i></a>
-                        <a href="http://ashrafeid.co.uk" className="about__social-icon" target="_blank"><i className="fas fa-link"></i></a>
+                        <a href="#home" className={theme ? "make-dark icons" : "icons"}><i className="fas fa-envelope-open-text"></i></a>
+                        <a href="https://github.com/ashrafcoding" className={theme ? "make-dark icons icons" : "icons"} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                        <a href="http://ashrafeid.co.uk" className={theme ? "make-dark icons" : "icons"} target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
                     </div>
                 </div>
             </div>

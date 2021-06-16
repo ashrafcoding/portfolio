@@ -11,13 +11,13 @@ function Portfolio() {
             <div className="portfolio__container bd-grid">
                 {porojects.map((project, index)=>(
                     <div className="portfolio__img" key={index} >
-                        <img src={project.src} alt="" data-aos="slide-up" data-aos-delay={index*100}/>
+                        <img src={project.src} alt="" data-aos="slide-up" data-aos-delay={index*200}/>
                         <div className="external-link">
                             <div className="portfolio__link">
-                                <a href={project.link} className="portfolio__link-name" target="_blank">View details</a>                      
+                                <a href={project.link} className="portfolio__link-name" target="_blank" rel="noreferrer">View details</a>                      
                             </div>  
                             <div className="portfolio__link github-source">
-                                <a href={project.source} className="portfolio__link-name " target="_blank">View source</a>                      
+                                <a href={project.source} className="portfolio__link-name " target="_blank" rel="noreferrer">View source</a>                      
                             </div>  
                         </div>                 
                     </div>

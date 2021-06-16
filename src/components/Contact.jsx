@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 
-function Contact() {
+function Contact({theme}) {
     return (
         <div className="contact section" id="contact">
         <h2 className="section-title">Contact</h2>
@@ -17,7 +17,7 @@ function Contact() {
                 <span className="contact__text">+966582992322</span>
 
                 <h3 className="contact__subtitle">GITHUB</h3>
-                <span className="contact__text"><a href="https://github.com/ashrafcoding">https://github.com/ashrafcoding</a> </span>
+                <span className="contact__text"><a href="https://github.com/ashrafcoding" className={theme ? "make-dark" : ""}>https://github.com/ashrafcoding</a> </span>
             </div>
 
             <form action="" className="contact__form" name="contact" method="POST" data-netlify="true">

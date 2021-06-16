@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 
-function Footer() {
+function Footer({theme}) {
     return (
         <footer className="footer section">
             <div className="footer__container bd-grid">
@@ -13,19 +13,19 @@ function Footer() {
                 <div className="footer__data">
                     <h2 className="footer__title">EXPLORE</h2>
                     <ul>
-                        <li><a href="#home" className="footer__link">Home</a></li>
-                        <li><a href="#about" className="footer__link">About</a></li>
-                        <li><a href="#skills" className="footer__link">Skills</a></li>
-                        <li><a href="#portfolio" className="footer__link">Portfolio</a></li>
-                        <li><a href="#Contact" className="footer__link">Contact</a></li>
+                        <li><a href="#home" className={theme ? "make-dark" : ""}>Home</a></li>
+                        <li><a href="#about" className={theme ? "make-dark" : ""}>About</a></li>
+                        <li><a href="#skills" className={theme ? "make-dark" : ""}>Skills</a></li>
+                        <li><a href="#portfolio" className={theme ? "make-dark" : ""}>Portfolio</a></li>
+                        <li><a href="#Contact" className={theme ? "make-dark" : ""}>Contact</a></li>
                     </ul>
                 </div>
                 
                 <div className="footer__data">
                     <h2 className="footer__title">FOLLOW</h2>
-                    <a href="#home" className="about__social-icon"><i className="fas fa-envelope-open-text"></i></a>
-                    <a href="https://github.com/ashrafcoding" className="about__social-icon" target="_blank"><i className="fab fa-github"></i></a>
-                    <a href="http://ashrafeid.co.uk" className="about__social-icon" target="_blank"><i className="fas fa-link"></i></a>
+                    <a href="#home" className={theme ? "make-dark icons" : "icons"}><i className="fas fa-envelope-open-text"></i></a>
+                    <a href="https://github.com/ashrafcoding" className={theme ? "make-dark icons" : "icons"} target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+                    <a href="http://ashrafeid.co.uk" className={theme ? "make-dark icons" : "icons"} target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
                 </div>    
             </div>
         </footer>

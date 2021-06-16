@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-}
+} 
+
 .home__title {
     font-size: 20vw;
     line-height: 0.8;
@@ -10,7 +11,7 @@
 .home__img {
     width: 100%;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 750px) {
     .home__container {
         flex-direction: column;
     }

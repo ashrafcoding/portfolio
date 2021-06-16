@@ -4,7 +4,8 @@ import "./header.css";
 function Header(){
   
     return (
-      <div className="home__container bd-grid">
+      <>
+      <div className="home__container" id="home">
         <h1 className="home__title" data-aos="slide-down">
           <span>HE</span>
           <br />
@@ -15,6 +16,7 @@ function Header(){
           <img src="./assets/developer.svg" alt="" className="home__img" />
         </div>
       </div>
+      </>
     );
   
 }
