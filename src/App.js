@@ -31,7 +31,6 @@ function App() {
   const [dark, setDark] = useState(false)
   const toggleTheme = ()=> {
     setDark(!dark)
-    console.log(dark);
   }
  
   
