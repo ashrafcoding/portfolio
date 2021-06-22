@@ -20,7 +20,7 @@ export const porojects = [
     {id :2, src: "./assets/projects/countries.jpg", link: "https://countries-api-new.netlify.app/", source: "https://github.com/ashrafcoding/react-countries" },
     {id :3, src: "./assets/projects/front-template.jpg", link: "https://ashrafcoding.github.io/front-template/", source: "https://github.com/ashrafcoding/front-template" },
     {id :4, src: "./assets/projects/react-template.jpg", link: "https://react-temp-awesome.netlify.app/", source: "https://github.com/ashrafcoding/react-template" },
-    {id :5, src: "./assets/projects/chat.jpg", link: "https://ashrafcoding.github.io/chat-app-css/" , source: "https://github.com/ashrafcoding/chat-app-css"},
+    {id :5, src: "./assets/projects/sass-template.jpg", link: "https://ashrafcoding.github.io/sass-template/" , source: "https://github.com/ashrafcoding/sass-template"},
     {id :6, src: "./assets/projects/memeory.jpg", link: "https://ashrafcoding.github.io/memory-game/", source: "https://github.com/ashrafcoding/memory-game" },
 
 ]

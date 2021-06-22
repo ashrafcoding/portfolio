@@ -22,11 +22,12 @@ function Contact({theme}) {
 
             <form action="" className="contact__form" name="contact" method="POST" data-netlify="true">
                 <div className="contact__inputs">
-                    <input type="text" placeholder="Name" className="contact__input"/>
-                    <input type="mail" placeholder="Email" className="contact__input"/>
+                    <input type="hidden" name="form-name" value="contact" />
+                    <input type="text" placeholder="Name" className="contact__input" name="name"/>
+                    <input type="mail" placeholder="Email" className="contact__input" name="email"/>
                 </div>
 
-                <textarea name="" id="" cols="0" rows="10" className="contact__input"></textarea>
+                <textarea name="message" id="" cols="0" rows="10" className="contact__input" ></textarea>
 
                 <input type="submit" value="Send" className="contact__button"/>
             </form>

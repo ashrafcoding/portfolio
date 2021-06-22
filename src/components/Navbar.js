@@ -33,6 +33,8 @@ function Navbar({theme, callToggle}) {
                     <li className="nav__item"><a href="#skills" className={theme ? "nav__link  make-dark": "nav__link "} >Skills</a></li>
                     <li className="nav__item"><a href="#portfolio" className={theme ? "nav__link  make-dark": "nav__link "} >Portfolio</a></li>
                     <li className="nav__item"><a href="#contact" className={theme ? "nav__link  make-dark": "nav__link "}>Contact</a></li>
+                    <li className="nav__item"><a href="https://drive.google.com/file/d/1HK4CwfJdXkOBwrJcAn-siokeCLT1diHc/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={theme ? "nav__link  make-dark": "nav__link "}>Resume</a></li>
+
                 </ul>
             
                 <img src={theme ? "./assets/icons/light.svg" : "./assets/icons/dark.svg"} alt="" onClick={callToggle}/> 
